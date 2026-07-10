@@ -110,9 +110,9 @@ a{ color: inherit; }
   padding: 10px 0;
 }
 .navbar-logo img{
-  height: calc(var(--nav-h) - 20px);
+  height: calc(var(--nav-h) - 32px);
   width:auto;
-  max-width: 340px;
+  max-width: 300px;
   object-fit:contain;
   display:block;
   transition: transform .2s ease;
