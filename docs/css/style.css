@@ -177,17 +177,45 @@ body.menu-open{ overflow:hidden; }
   text-align:center;
 }
 
+.hero-feature-frame{
+  position: relative;
+}
 .hero-feature{
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  padding: 4px; /* thickness of the visible ring — laser + trailing beads share this one path */
+}
+.hero-feature::before{
+  content:"";
+  position:absolute;
+  inset:-500px;
+  background: conic-gradient(from 0deg,
+    transparent 0deg 330deg,
+    #2a4d8f 333deg 334.5deg,
+    transparent 334.5deg 340deg,
+    #2a4d8f 342deg 343.5deg,
+    transparent 343.5deg 349deg,
+    #2a4d8f 351deg 352.5deg,
+    transparent 352.5deg 355deg,
+    #c1272d 356.5deg 358.5deg,
+    transparent 358.5deg 360deg
+  );
+  animation: rayOrbit 30s linear infinite;
+  pointer-events:none;
+}
+@keyframes rayOrbit{ to { transform: rotate(360deg); } }
+.hero-feature-inner{
+  position: relative;
+  z-index: 1;
   text-align:left;
   display:grid;
   grid-template-columns: 280px 1fr;
   gap: 40px;
   align-items:center;
   background: #fff;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
+  border-radius: calc(var(--radius) - 3px);
   padding: 32px;
-  box-shadow: 0 22px 44px -32px rgba(32,29,26,0.35);
 }
 .hero-feature img{
   width:100%; height:auto; display:block;
