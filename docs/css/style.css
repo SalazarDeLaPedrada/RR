@@ -14,6 +14,7 @@
   --theme: #7a2331; /* overridden per-page (Renan Rossi maroon by default) */
   --theme-soft: color-mix(in srgb, var(--theme) 14%, var(--cream));
   --theme-line: color-mix(in srgb, var(--theme) 35%, transparent);
+  --theme-vivid: color-mix(in srgb, var(--theme) 55%, var(--cream));
   --brand-red: #8c1c2b; /* fixed brand red for nav chrome, constant across every page */
   --radius: 14px;
   --maxw: 1120px;
@@ -111,7 +112,7 @@ a{ color: inherit; }
 .navbar-logo img{
   height: calc(var(--nav-h) - 20px);
   width:auto;
-  max-width: 220px;
+  max-width: 340px;
   object-fit:contain;
   display:block;
   transition: transform .2s ease;
@@ -158,10 +159,16 @@ a{ color: inherit; }
   color:var(--ink-soft); margin: 10px 0 8px;
 }
 .side-menu-group a{
-  text-decoration:none; color:var(--ink-soft); padding:8px 4px; font-size:0.98rem;
+  --link-theme: var(--theme);
+  text-decoration:none; color: var(--link-theme); font-size:0.98rem;
+  padding:8px 10px; margin:0 -10px; border-radius:8px;
   border-bottom:1px solid var(--line);
+  transition: background-color .18s ease, color .18s ease;
 }
-.side-menu-group a:hover{ color: var(--theme); }
+.side-menu-group a:hover{
+  background-color: var(--link-theme);
+  color:#fdfbf5;
+}
 
 body.menu-open{ overflow:hidden; }
 
@@ -269,7 +276,7 @@ body.menu-open{ overflow:hidden; }
 .hub-hero{
   padding: 72px 0 56px;
   border-bottom: 1px solid var(--line);
-  background: linear-gradient(180deg, var(--theme-soft), transparent);
+  background: linear-gradient(180deg, var(--theme-vivid), var(--theme-soft) 55%, transparent);
 }
 .hub-hero .back{
   display:inline-flex; align-items:center; gap:6px;
