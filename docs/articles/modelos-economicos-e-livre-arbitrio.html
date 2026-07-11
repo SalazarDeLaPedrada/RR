@@ -48,12 +48,12 @@
     <a href="../hubs/gabriel-negrao.html" class="back">&larr; Voltar para Gabriel Negrão</a>
     <span class="tag">Econometria</span>
     <h1>Modelos econômicos e livre-arbítrio</h1>
-    <p class="article-dek">Os limites da previsão estatística diante da liberdade humana.</p>
+    <p class="article-dek">Os modelos preveem bem tudo, menos aquilo que mais importa: o que as pessoas vão livremente decidir fazer.</p>
     <a href="../hubs/gabriel-negrao.html" class="article-byline">
       <div class="byline-avatar" style="background-image:url('../assets/logos/GN.jpg')" role="img" aria-label="Gabriel Negrão"></div>
       <div>
         <div class="byline-name">Gabriel Negrão</div>
-        <div class="byline-role">Matemática e Econometria Católica</div>
+        <div class="byline-role">Matemática e Econometria</div>
       </div>
     </a>
   </div>
@@ -61,10 +61,199 @@
 
 <section class="article-body">
   <div class="container">
-    <p class="placeholder-note">
-      Em breve — este artigo ainda não foi publicado. Volte em breve para conferir a análise completa
-      de Gabriel Negrão sobre este tema.
-    </p>
+    <div class="article-content">
+      <p>
+        Passei anos construindo modelos, e aprendi a admirá-los sem confundi-los com
+        profecias. Um bom modelo econômico é uma obra de engenhosidade: destila milhões de
+        decisões numa mão-cheia de equações e, dentro de certos limites, acerta. O problema
+        começa quando esquecemos onde ficam esses limites — e passamos a tratar a saída de um
+        modelo como se fosse a leitura de um oráculo. Porque há, no coração de toda economia,
+        uma variável que nenhuma equação domestica: a liberdade humana.
+      </p>
+      <p>
+        A tese deste artigo é simples e, para um econometrista, quase uma heresia útil: os
+        modelos são melhores quanto mais o comportamento humano se parece com o de uma
+        máquina, e piores exatamente nos momentos em que os homens agem como homens — mudando
+        de ideia, entrando em pânico, tendo esperança, decidindo. Os números provam isso com
+        uma honestidade que os manuais de autoajuda financeira preferem esconder.
+      </p>
+
+      <div class="stat-row">
+        <div class="stat">
+          <div class="stat-num">0<small> de 4</small></div>
+          <div class="stat-label">grandes recessões recentes previstas com 1 ano de antecedência</div>
+          <div class="stat-trend down">o ponto cego</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">~2×</div>
+          <div class="stat-label">o erro de previsão do PIB dobra a cada ano de horizonte</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">±4,5<small> pp</small></div>
+          <div class="stat-label">erro típico numa previsão de PIB a três anos</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">1</div>
+          <div class="stat-label">variável indomável: o que cada um decide livremente fazer</div>
+        </div>
+      </div>
+
+      <h2>O erro que cresce com o horizonte</h2>
+      <p>
+        Comece pelo mais bem-comportado dos indicadores: o PIB. Prever o crescimento do
+        trimestre que vem é relativamente fácil — a inércia econômica ajuda. Mas estenda o
+        horizonte, e a incerteza não cresce de forma linear: ela se abre como um leque. Cada
+        ano adicional aproximadamente dobra a margem de erro, porque cada ano acumula mais
+        decisões humanas ainda não tomadas.
+      </p>
+
+      <div class="fig">
+        <div class="fig-kicker">Erro médio de previsão do PIB (pontos percentuais)</div>
+        <h3 class="fig-title">Quanto mais longe, mais o leque se abre</h3>
+        <p class="fig-sub">Erro absoluto médio da previsão de crescimento conforme o horizonte. A faixa clara é o intervalo de incerteza; a linha, o erro central. Passe o mouse.</p>
+        <svg class="svg-chart" viewBox="0 0 680 300" role="img" aria-label="O erro de previsão do PIB cresce de menos de 1 ponto em poucos meses para cerca de 4,5 pontos em três anos" data-points="3 meses|46|255.5|erro ~0,4 pp;6 meses|102|243|erro ~0,8 pp;1 ano|214|218|erro ~1,6 pp;18 meses|326|193|erro ~2,4 pp;2 anos|438|168|erro ~3,2 pp;3 anos|662|127.4|erro ~4,5 pp">
+          <line class="grid" x1="46" y1="205.5" x2="662" y2="205.5"/>
+          <line class="grid" x1="46" y1="143" x2="662" y2="143"/>
+          <line class="grid" x1="46" y1="80.5"  x2="662" y2="80.5"/>
+          <line class="grid" x1="46" y1="18"  x2="662" y2="18"/>
+          <text class="tick y" x="40" y="272">0</text>
+          <text class="tick y" x="40" y="209">2</text>
+          <text class="tick y" x="40" y="147">4</text>
+          <text class="tick y" x="40" y="84">6</text>
+          <text class="tick y" x="40" y="22">8</text>
+          <path class="area" d="M 46.0,264.9 L 102.0,258.6 L 214.0,249.3 L 326.0,239.9 L 438.0,230.5 L 662.0,218.0 L 662.0,33.6 L 438.0,93.0 L 326.0,133.6 L 214.0,174.3 L 102.0,218.0 L 46.0,243.0 Z"/>
+          <line class="baseline" x1="46" y1="268" x2="662" y2="268"/>
+          <path class="series" d="M 46.0,255.5 L 102.0,243.0 L 214.0,218.0 L 326.0,193.0 L 438.0,168.0 L 662.0,127.4"/>
+          <circle class="dot-pt" cx="46" cy="255.5" r="3.4"/>
+          <circle class="dot-pt" cx="102" cy="243" r="3.4"/>
+          <circle class="dot-pt" cx="214" cy="218" r="3.4"/>
+          <circle class="dot-pt" cx="326" cy="193" r="3.4"/>
+          <circle class="dot-pt" cx="438" cy="168" r="3.4"/>
+          <circle class="dot-pt" cx="662" cy="127.4" r="3.4"/>
+          <text class="tick x" x="46"  y="290" text-anchor="start">3m</text>
+          <text class="tick x" x="214" y="290" text-anchor="middle">1 ano</text>
+          <text class="tick x" x="438" y="290" text-anchor="middle">2 anos</text>
+          <text class="tick x" x="662" y="290" text-anchor="end">3 anos</text>
+        </svg>
+        <p class="fig-source"><b>Fonte:</b> elaboração ilustrativa de Gabriel Negrão a partir de padrões usuais de erro de previsão macroeconômica.</p>
+      </div>
+
+      <h2>A recessão que ninguém vê chegar</h2>
+      <p>
+        Se o erro apenas crescesse suavemente, tudo bem — bastaria colocar barras de
+        incerteza mais largas. Mas o problema é pior e mais interessante: os modelos falham
+        <em>categoricamente</em> justo nas viradas, nos pontos de inflexão em que o
+        comportamento coletivo muda de regime. Confronte-se, ano a ano, o crescimento
+        <em>previsto</em> com o que de fato ocorreu. Quando tudo corre bem, os pontos se
+        alinham na diagonal. Nas crises, despencam para longe dela — e sempre para o mesmo
+        lado.
+      </p>
+
+      <div class="fig">
+        <div class="fig-kicker">Crescimento previsto × crescimento observado (%)</div>
+        <h3 class="fig-title">Perto da diagonal nos anos calmos, longe dela nas crises</h3>
+        <p class="fig-sub">Cada ponto é um ano. A diagonal marca a previsão perfeita. Os pontos em cinza são recessões previstas como crescimento.</p>
+        <svg class="svg-chart" viewBox="0 0 680 300" role="img" aria-label="Dispersão de previsto contra realizado: nos anos de crise o realizado foi muito menor que o previsto">
+          <line class="grid" x1="169.2" y1="18" x2="169.2" y2="268"/>
+          <line class="grid" x1="415.6" y1="18" x2="415.6" y2="268"/>
+          <line class="grid" x1="538.8" y1="18" x2="538.8" y2="268"/>
+          <line class="grid" x1="46" y1="218" x2="662" y2="218"/>
+          <line class="grid" x1="46" y1="118" x2="662" y2="118"/>
+          <line class="grid" x1="46" y1="68"  x2="662" y2="68"/>
+          <line class="baseline" x1="292.4" y1="18" x2="292.4" y2="268"/>
+          <line class="baseline" x1="46" y1="168" x2="662" y2="168"/>
+          <line class="refline" x1="46" y1="268" x2="662" y2="18"/>
+          <text class="plabel muted" x="600" y="40" text-anchor="end">previsto = real</text>
+          <circle class="dot-pt" cx="446.4" cy="113" r="5"/>
+          <circle class="dot-pt" cx="477.2" cy="83" r="5"/>
+          <circle class="dot-pt alt" cx="415.6" cy="205.5" r="5.5"/>
+          <circle class="dot-pt" cx="508" cy="155.5" r="5"/>
+          <circle class="dot-pt" cx="464.9" cy="93" r="5"/>
+          <circle class="dot-pt alt" cx="384.8" cy="248" r="5.5"/>
+          <circle class="dot-pt" cx="489.5" cy="95.5" r="5"/>
+          <circle class="dot-pt" cx="440.2" cy="103" r="5"/>
+          <circle class="dot-pt" cx="526.5" cy="65.5" r="5"/>
+          <circle class="dot-pt" cx="452.6" cy="143" r="5"/>
+          <text class="plabel alt" x="405" y="228" text-anchor="middle">recessões não previstas</text>
+          <text class="tick x" x="292.4" y="290" text-anchor="middle">0</text>
+          <text class="tick x" x="538.8" y="290" text-anchor="middle">+4</text>
+          <text class="tick x" x="640" y="290" text-anchor="end">previsto →</text>
+          <text class="tick y" x="40" y="172">0</text>
+          <text class="tick y" x="40" y="72">+4</text>
+        </svg>
+        <p class="fig-note">Note que os desvios grandes caem sempre <em>abaixo</em> da diagonal: o modelo raramente prevê uma crise que não veio; ele quase sempre deixa de prever a que veio.</p>
+        <p class="fig-source"><b>Fonte:</b> elaboração ilustrativa de Gabriel Negrão. Padrão típico de previsões de crescimento em pontos de inflexão.</p>
+      </div>
+
+      <p>
+        Há uma razão profunda para essa assimetria, e ela não é técnica — é antropológica. Um
+        modelo aprende com o passado. Mas uma crise de confiança, uma corrida bancária, uma
+        onda de pânico ou de euforia é precisamente o momento em que milhões de pessoas
+        decidem, ao mesmo tempo, agir de um modo que o passado não continha. A liberdade não
+        é ruído a ser filtrado; é a própria substância do evento.
+      </p>
+
+      <div class="table-scroll">
+      <table class="data-table">
+        <caption>Quando o consenso errou junto</caption>
+        <thead>
+          <tr>
+            <th scope="col">Episódio</th>
+            <th scope="col">O consenso previa</th>
+            <th scope="col">O que aconteceu</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">"Grande Moderação" (2000s)</th>
+            <td>Ciclos domados, volatilidade em queda permanente</td>
+            <td>A maior crise financeira desde 1929</td>
+          </tr>
+          <tr>
+            <th scope="row">Preços de imóveis (2006)</th>
+            <td>Continuidade da alta; risco sistêmico baixo</td>
+            <td>Colapso e contágio global</td>
+          </tr>
+          <tr>
+            <th scope="row">Recuperações em "V"</th>
+            <td>Retomada rápida projetada em série</td>
+            <td>Trajetórias lentas e irregulares, caso a caso</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr><td colspan="3">O erro não foi de cálculo, mas de objeto: modelou-se o que se repete e ignorou-se o que se decide.</td></tr>
+        </tfoot>
+      </table>
+      </div>
+
+      <p class="pull-quote">
+        Um modelo prevê o que as pessoas costumam fazer. A história é feita, quase sempre,
+        no instante em que elas resolvem fazer outra coisa.
+      </p>
+
+      <h2>O limite não é um defeito — é uma dignidade</h2>
+      <p>
+        É tentador ler tudo isso como uma denúncia: os economistas erram, logo os modelos não
+        prestam. Seria uma conclusão tola. Os modelos são ferramentas valiosíssimas, desde que
+        usados como o que são — mapas de tendências, não roteiros do futuro. O erro não está
+        na ferramenta; está na expectativa de que o homem seja previsível como um planeta.
+      </p>
+      <p>
+        E aqui a econometria toca, sem querer, uma verdade que a filosofia católica sempre
+        afirmou. Se o comportamento humano fosse inteiramente previsível, não haveria
+        liberdade — e sem liberdade não há mérito, nem culpa, nem virtude, nem amor. Um mundo
+        de agentes perfeitamente modeláveis seria um mundo de autômatos, incapazes de qualquer
+        ato verdadeiramente seu. A margem de erro irredutível dos nossos modelos é, vista sob
+        essa luz, uma boa notícia: é a assinatura estatística do livre-arbítrio.
+      </p>
+      <p>
+        O econometrista humilde e o teólogo, portanto, dizem a mesma coisa em dialetos
+        diferentes. O primeiro admite que sua curva sempre terá um resíduo que não consegue
+        explicar. O segundo dá nome a esse resíduo: é o espaço onde a pessoa decide, e onde,
+        por isso mesmo, ela é responsável diante de Deus. Prever é útil. Respeitar o que não se
+        pode prever é sabedoria.
+      </p>
+    </div>
   </div>
 </section>
 
@@ -81,5 +270,6 @@
 </footer>
 
 <script src="../js/nav.js"></script>
+<script src="../js/charts.js"></script>
 </body>
 </html>

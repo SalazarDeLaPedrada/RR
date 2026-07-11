@@ -48,12 +48,12 @@
     <a href="../hubs/gabriel-negrao.html" class="back">&larr; Voltar para Gabriel Negrão</a>
     <span class="tag">Matemática</span>
     <h1>A beleza da ordem: matemática como linguagem da Criação</h1>
-    <p class="article-dek">Uma reflexão sobre a relação histórica entre matemática e teologia natural.</p>
+    <p class="article-dek">A natureza insiste em repetir as mesmas proporções, os mesmos números, as mesmas leis. Onde há linguagem, há alguém que a fala.</p>
     <a href="../hubs/gabriel-negrao.html" class="article-byline">
       <div class="byline-avatar" style="background-image:url('../assets/logos/GN.jpg')" role="img" aria-label="Gabriel Negrão"></div>
       <div>
         <div class="byline-name">Gabriel Negrão</div>
-        <div class="byline-role">Matemática e Econometria Católica</div>
+        <div class="byline-role">Matemática e Econometria</div>
       </div>
     </a>
   </div>
@@ -61,10 +61,236 @@
 
 <section class="article-body">
   <div class="container">
-    <p class="placeholder-note">
-      Em breve — este artigo ainda não foi publicado. Volte em breve para conferir a análise completa
-      de Gabriel Negrão sobre este tema.
-    </p>
+    <div class="article-content">
+      <p>
+        Há uma frase de Galileu que se tornou lugar-comum e nem por isso perdeu a força: o
+        livro da natureza está escrito em linguagem matemática. O que raramente se comenta é
+        a estranheza do que essa frase afirma. Por que o universo <em>teria</em> uma
+        linguagem? Por que as marés, as órbitas, o crescimento de uma concha e a disposição
+        das sementes num girassol haveriam de obedecer às mesmas poucas regras, exprimíveis
+        em símbolos que cabem numa página? Uma pedra não precisa saber geometria para cair.
+        E, no entanto, cai exatamente como a geometria prevê.
+      </p>
+      <p>
+        Chesterton dizia que talvez o Sol nasça todos os dias não por inércia, mas porque
+        Deus, como uma criança que nunca se cansa da repetição, diz a cada manhã: "de novo".
+        A ciência moderna nasceu, em boa parte, dessa intuição — a de que por trás da
+        repetição havia <em>ordem</em>, e que a ordem podia ser lida. Este artigo é sobre
+        alguns casos em que essa leitura é quase escandalosa de tão precisa.
+      </p>
+
+      <div class="stat-row">
+        <div class="stat">
+          <div class="stat-num">φ</div>
+          <div class="stat-label">1,61803… — a proporção áurea, onipresente na vida</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">π</div>
+          <div class="stat-label">3,14159… — de todo círculo, onda e órbita</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">e</div>
+          <div class="stat-label">2,71828… — a base do crescimento e do decaimento</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">∞</div>
+          <div class="stat-label">números primos — infinitos, e ainda assim ordenados</div>
+        </div>
+      </div>
+
+      <h2>A razão que a natureza insiste em repetir</h2>
+      <p>
+        Tome-se a sequência de Fibonacci: cada termo é a soma dos dois anteriores (1, 1, 2,
+        3, 5, 8, 13, 21…). Ela aparece onde menos se espera — nas pétalas, nos ramos, nas
+        espirais. Divida-se cada termo pelo anterior e algo notável acontece: a razão
+        oscila, cada vez com menos folga, em torno de um único número irracional, a
+        proporção áurea φ ≈ 1,618. A natureza não "sabe" o que é φ; e ainda assim converge
+        para ele com a paciência de quem segue uma partitura.
+      </p>
+
+      <div class="fig">
+        <div class="fig-kicker">Razão entre termos consecutivos de Fibonacci</div>
+        <h3 class="fig-title">A oscilação que se aquieta em φ</h3>
+        <p class="fig-sub">Cada divisão de um termo pelo anterior aproxima-se da proporção áurea (linha tracejada). Passe o mouse sobre os pontos.</p>
+        <svg class="svg-chart" viewBox="0 0 680 300" role="img" aria-label="As razões de Fibonacci oscilam e convergem para 1,618" data-points="1÷1|46|268|1,000;2÷1|123|18|2,000;3÷2|200|143|1,500;5÷3|277|101.3|1,667;8÷5|354|118|1,600;13÷8|431|111.8|1,625;21÷13|508|114.2|1,615;34÷21|585|113.3|1,619;55÷34|662|113.6|1,618">
+          <line class="grid" x1="46" y1="218" x2="662" y2="218"/>
+          <line class="grid" x1="46" y1="168" x2="662" y2="168"/>
+          <line class="grid" x1="46" y1="118" x2="662" y2="118"/>
+          <line class="grid" x1="46" y1="68"  x2="662" y2="68"/>
+          <text class="tick y" x="40" y="272">1,0</text>
+          <text class="tick y" x="40" y="222">1,2</text>
+          <text class="tick y" x="40" y="172">1,4</text>
+          <text class="tick y" x="40" y="122">1,6</text>
+          <text class="tick y" x="40" y="72">1,8</text>
+          <text class="tick y" x="40" y="22">2,0</text>
+          <line class="refline" x1="46" y1="113.5" x2="662" y2="113.5"/>
+          <text class="plabel" x="662" y="107" text-anchor="end">φ = 1,618</text>
+          <path class="series" d="M 46.0,268.0 L 123.0,18.0 L 200.0,143.0 L 277.0,101.3 L 354.0,118.0 L 431.0,111.8 L 508.0,114.2 L 585.0,113.3 L 662.0,113.6"/>
+          <circle class="dot-pt" cx="46" cy="268" r="3.4"/>
+          <circle class="dot-pt" cx="123" cy="18" r="3.4"/>
+          <circle class="dot-pt" cx="200" cy="143" r="3.4"/>
+          <circle class="dot-pt" cx="277" cy="101.3" r="3.4"/>
+          <circle class="dot-pt" cx="354" cy="118" r="3.4"/>
+          <circle class="dot-pt" cx="431" cy="111.8" r="3.4"/>
+          <circle class="dot-pt" cx="508" cy="114.2" r="3.4"/>
+          <circle class="dot-pt" cx="585" cy="113.3" r="3.4"/>
+          <circle class="dot-pt" cx="662" cy="113.6" r="3.4"/>
+          <text class="tick x" x="46"  y="290" text-anchor="start">1÷1</text>
+          <text class="tick x" x="200" y="290" text-anchor="middle">3÷2</text>
+          <text class="tick x" x="354" y="290" text-anchor="middle">8÷5</text>
+          <text class="tick x" x="508" y="290" text-anchor="middle">21÷13</text>
+          <text class="tick x" x="662" y="290" text-anchor="end">55÷34</text>
+        </svg>
+        <p class="fig-source"><b>Fonte:</b> elaboração de Gabriel Negrão. Valores exatos da sequência de Fibonacci.</p>
+      </div>
+
+      <p>
+        Essa mesma proporção reaparece na espiral de uma concha de náutilo, na filotaxia das
+        folhas ao redor de um caule, na distribuição das sementes de um girassol. Não é
+        misticismo: é o resultado de um princípio de empacotamento ótimo, a forma mais
+        eficiente de acomodar crescimento sem desperdício. A questão filosófica permanece
+        intacta, porém: por que a eficiência tem forma, e por que essa forma é <em>bela</em>?
+      </p>
+
+      <div class="table-scroll">
+      <table class="data-table">
+        <caption>Quatro números que a natureza não para de usar</caption>
+        <thead>
+          <tr>
+            <th scope="col">Símbolo</th>
+            <th scope="col">Valor</th>
+            <th scope="col">Onde aparece</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">π</th><td>3,14159…</td><td>Círculos, ondas, órbitas, pêndulos</td></tr>
+          <tr><th scope="row">e</th><td>2,71828…</td><td>Crescimento, decaimento, juros compostos</td></tr>
+          <tr><th scope="row">φ</th><td>1,61803…</td><td>Espirais, filotaxia, proporções harmônicas</td></tr>
+          <tr><th scope="row">√2</th><td>1,41421…</td><td>Diagonais, acústica, proporção do papel</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><td colspan="3">Números irracionais — que não "cabem" em fração alguma — e ainda assim estruturam o mundo concreto.</td></tr>
+        </tfoot>
+      </table>
+      </div>
+
+      <h2>A ordem escondida nos primos</h2>
+      <p>
+        Os números primos parecem o oposto da ordem: aparecem sem aviso, sem fórmula que os
+        gere, espalhados pela reta numérica como que ao acaso. E, no entanto, quando se
+        pergunta não <em>onde</em> está cada primo, mas <em>quantos</em> há até certo ponto,
+        surge uma regularidade impressionante. A densidade dos primos até um número N
+        diminui — mas diminui seguindo, quase de perto, a curva de 1÷ln(N). É o Teorema dos
+        Números Primos: uma lei precisa governando o que parecia puro capricho.
+      </p>
+
+      <div class="fig">
+        <div class="fig-kicker">Densidade de primos até N</div>
+        <h3 class="fig-title">O acaso aparente obedece a uma lei</h3>
+        <p class="fig-sub">Fração de números que são primos até cada patamar de N, comparada à previsão teórica 1÷ln(N).</p>
+        <div class="fig-legend">
+          <span style="--k:var(--theme)">Densidade observada</span>
+          <span style="--k:var(--slate)">Previsão 1÷ln(N)</span>
+        </div>
+        <svg class="svg-chart" viewBox="0 0 680 300" role="img" aria-label="A densidade de primos cai acompanhando de perto a curva 1 sobre ln N">
+          <line class="grid" x1="46" y1="218" x2="662" y2="218"/>
+          <line class="grid" x1="46" y1="168" x2="662" y2="168"/>
+          <line class="grid" x1="46" y1="118" x2="662" y2="118"/>
+          <line class="grid" x1="46" y1="68"  x2="662" y2="68"/>
+          <line class="grid" x1="46" y1="18"  x2="662" y2="18"/>
+          <text class="tick y" x="40" y="272">0</text>
+          <text class="tick y" x="40" y="222">0,1</text>
+          <text class="tick y" x="40" y="172">0,2</text>
+          <text class="tick y" x="40" y="122">0,3</text>
+          <text class="tick y" x="40" y="72">0,4</text>
+          <text class="tick y" x="40" y="22">0,5</text>
+          <line class="baseline" x1="46" y1="268" x2="662" y2="268"/>
+          <path class="series alt" d="M 46.0,51.0 L 169.2,159.5 L 292.4,195.5 L 415.6,213.5 L 538.8,224.6 L 662.0,231.8"/>
+          <path class="series" d="M 46.0,68.0 L 169.2,143.0 L 292.4,184.0 L 415.6,206.5 L 538.8,220.0 L 662.0,228.8"/>
+          <circle class="dot-pt" cx="46" cy="68" r="3.4"/>
+          <circle class="dot-pt" cx="169.2" cy="143" r="3.4"/>
+          <circle class="dot-pt" cx="292.4" cy="184" r="3.4"/>
+          <circle class="dot-pt" cx="415.6" cy="206.5" r="3.4"/>
+          <circle class="dot-pt" cx="538.8" cy="220" r="3.4"/>
+          <circle class="dot-pt" cx="662" cy="228.8" r="3.4"/>
+          <text class="tick x" x="46"  y="290" text-anchor="start">10</text>
+          <text class="tick x" x="169.2" y="290" text-anchor="middle">100</text>
+          <text class="tick x" x="292.4" y="290" text-anchor="middle">mil</text>
+          <text class="tick x" x="415.6" y="290" text-anchor="middle">10 mil</text>
+          <text class="tick x" x="538.8" y="290" text-anchor="middle">100 mil</text>
+          <text class="tick x" x="662" y="290" text-anchor="end">1 mi</text>
+        </svg>
+        <p class="fig-source"><b>Fonte:</b> elaboração de Gabriel Negrão a partir da contagem de primos e do Teorema dos Números Primos.</p>
+      </div>
+
+      <p>
+        Repare no que isso significa. A distribuição individual dos primos continua sem
+        fórmula fechada — é um dos grandes mistérios abertos da matemática. Mas o
+        <em>comportamento coletivo</em> é dócil, previsível, legível. Há caos na superfície e
+        lei no fundo. Quem já rezou diante da aparente desordem da própria vida reconhece a
+        estrutura: o sentido nem sempre está no ponto, mas quase sempre está no todo.
+      </p>
+
+      <div class="fig">
+        <div class="fig-kicker">Espirais visíveis num girassol</div>
+        <h3 class="fig-title">Por que os girassóis contam em Fibonacci</h3>
+        <p class="fig-sub">O número de espirais que se cruzam na cabeça de um girassol tende a ser um par de números de Fibonacci consecutivos.</p>
+        <div class="hbars">
+          <div class="hbar">
+            <div class="hbar-label">Espirais horárias</div>
+            <div class="hbar-track"><div class="hbar-fill" style="--value:24%"></div></div>
+            <div class="hbar-val">21</div>
+          </div>
+          <div class="hbar">
+            <div class="hbar-label">Anti-horárias</div>
+            <div class="hbar-track"><div class="hbar-fill" style="--value:38%"></div></div>
+            <div class="hbar-val">34</div>
+          </div>
+          <div class="hbar">
+            <div class="hbar-label">Cabeça maior</div>
+            <div class="hbar-track"><div class="hbar-fill" style="--value:62%"></div></div>
+            <div class="hbar-val">55</div>
+          </div>
+          <div class="hbar">
+            <div class="hbar-label">Cabeça grande</div>
+            <div class="hbar-track"><div class="hbar-fill" style="--value:100%"></div></div>
+            <div class="hbar-val">89</div>
+          </div>
+        </div>
+        <p class="fig-note">21, 34, 55, 89 — todos números de Fibonacci. A planta "escolhe" o ângulo áureo (~137,5°) porque é o que melhor distribui as sementes sem sobreposição.</p>
+        <p class="fig-source"><b>Fonte:</b> elaboração de Gabriel Negrão; valores típicos observados em botânica (filotaxia).</p>
+      </div>
+
+      <p class="pull-quote">
+        Uma linguagem não se explica por si mesma. Ela aponta, sempre, para uma inteligência
+        que a concebeu — e para outra, capaz de compreendê-la.
+      </p>
+
+      <h2>Do número à Criação</h2>
+      <p>
+        O físico Eugene Wigner chamou a isso "a eficácia irracional da matemática nas ciências
+        naturais": o fato, nunca plenamente explicado, de que estruturas inventadas na
+        abstração pura acabam descrevendo com exatidão o mundo físico. Por que uma equação
+        rabiscada num quadro deveria adivinhar o comportamento de uma galáxia? Não há razão
+        <em>dentro</em> da matemática para que ela funcione fora dela. O ajuste entre pensamento
+        e realidade é um dado, não um teorema.
+      </p>
+      <p>
+        A tradição católica tem um nome antigo para esse ajuste. No princípio era o Logos —
+        e Logos é, a um tempo, Palavra e Razão. Um universo inteligível pressupõe uma
+        inteligência que o pensou; uma criatura capaz de decifrá-lo pressupõe que foi feita
+        à imagem dessa mesma inteligência. A matemática não prova a existência de Deus como
+        quem fecha um silogismo. Mas ela nos deixa diante de uma coincidência que pede
+        explicação: a de que o mundo seja legível, e de que tenhamos, nós, olhos para lê-lo.
+      </p>
+      <p>
+        Estudar a ordem, portanto, nunca foi para o cristão um exercício frio. É uma forma
+        de atenção — quase de oração — diante de uma obra que não para de repetir, com a
+        alegria incansável de uma criança, as mesmas proporções perfeitas. A beleza da ordem
+        não é um acidente que a matemática descobre. É uma assinatura que ela, sem querer,
+        reconhece.
+      </p>
+    </div>
   </div>
 </section>
 
@@ -81,5 +307,6 @@
 </footer>
 
 <script src="../js/nav.js"></script>
+<script src="../js/charts.js"></script>
 </body>
 </html>

@@ -17,7 +17,7 @@
   --theme-text: color-mix(in srgb, var(--theme) 65%, var(--ink) 35%); /* darker, legible variant for body text on hub pages */
   --radius: 14px;
   --maxw: 1120px;
-  --nav-h: 88px;
+  --nav-h: 72px;
   --menu-w: 84px;
 }
 
